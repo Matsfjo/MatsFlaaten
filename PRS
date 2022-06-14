@@ -1,0 +1,6 @@
+plink \
+    --bfile EUR \
+    --extract EUR.QC.prune.in \
+    --keep EUR.valid.sample \
+    --check-sex \
+    --out EUR.QC
